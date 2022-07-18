@@ -1,0 +1,20 @@
+.mainLogo {
+    max-width: 160px;
+}
+
+.Logo1 {
+    max-height: 50px;
+    clip-path: circle(60%);
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.AppBar {
+    border-bottom: 4px solid #738EB3;
+}
+
+.appbar-page-links:visited,
+.appbar-page-links:link {
+    text-decoration: none;
+    color: black;
+}

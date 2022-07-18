@@ -1,0 +1,16 @@
+#blob-blue {
+    z-index: -1;
+    right: 50px;
+}
+
+#blob-teal {
+    z-index: -2;
+    right: 5px;
+}
+
+#blob-teal,
+#blob-blue {
+    position: absolute;
+    height: 50vh;
+    top: 100px;
+}
