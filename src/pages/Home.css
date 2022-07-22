@@ -1,11 +1,12 @@
 #blob-blue {
     z-index: -1;
-    right: 50px;
+    right: 80px;
 }
 
 #blob-teal {
     z-index: -2;
     right: 5px;
+    filter: opacity(50%);
 }
 
 #blob-teal,
@@ -13,4 +14,15 @@
     position: absolute;
     height: 50vh;
     top: 100px;
+}
+
+#logo-mini {
+    right: 5px;
+}
+
+#logo-mini {
+    position: absolute;
+    z-index: -1;
+    height: 20vh;
+    top: 225px;
 }
