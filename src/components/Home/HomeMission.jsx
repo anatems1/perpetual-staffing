@@ -4,24 +4,13 @@ import "./HomeMission.css";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
-//import { useRef, useLayoutEffect, useState } from "react";
+import TwoStackImages from "../TwoStackImages";
 
 //importing images
 import IMG_office from "../../images/home/office.png";
-import IMG_blob from "../../images/home/teal-blob.svg";
+import IMG_blob from "../../images/home/blue-blob.svg";
 
 function HomeMission() {
-//   const targetRef = useRef();
-//   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
-
-//   useLayoutEffect(() => {
-//     if (targetRef.current) {
-//       setDimensions({
-//         width: targetRef.current.offsetWidth + 25,
-//         height: targetRef.current.offsetHeight,
-//       });
-//     }
-//   }, []);
 
   return (
     <div className="mission-container">
@@ -34,33 +23,19 @@ function HomeMission() {
       >
         {/* Holds image */}
         <Grid item md={4} xs={12}>
-          <Box
-            sx={{
-              height: { xs: "200px", md: "400px" },
-              paddingTop: "10vh",
-              position: "relative",
-            }}
-          >
-            <img
-              src={IMG_office}
-              alt="office"
-              id="office"
-              className="img-container-child"
-            />
-            <img
-              src={IMG_blob}
-              alt="blob"
-              id="blob"
-              className="img-container-child"
-            />
-          </Box>
+          <TwoStackImages
+            topIMG={IMG_office}
+            bottIMG={IMG_blob}
+            xsSize="300px"
+            mdSize="400px"
+            mgTOP = "75px"
+          />
         </Grid>
 
         {/* Holds Mission Statement */}
         <Grid item md={8} xs={12}>
           <Box
             sx={{
-              backgroundColor: "neutral",
               padding: "10%",
               marginTop: { xs: "5vh", md: "0" },
             }}

@@ -13,7 +13,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
 
 // image from mainlogo!!
-import mainlogo from "../images/mainlogo.png";
+import mainlogo from "../images/minilogo.png";
 import logo1 from "../images/logo1.png";
 import "./ResponsiveAppBar.css";
 

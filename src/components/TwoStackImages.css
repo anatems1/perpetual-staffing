@@ -1,15 +1,15 @@
-#office {
-    height: 60%;
+#topIMG {
     z-index: 2;
+    height: 100%;
 }
 
-#blob {
-    filter: opacity(40%);
+#bottIMG {
+    height: 100%;
+    width: 100%;
     z-index: 1;
-    height: 80%;
 }
 
-.img-container-child {
+.img-container {
     position: absolute;
     max-width: inherit;
     bottom: 0;

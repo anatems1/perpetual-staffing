@@ -2,6 +2,7 @@ import * as React from "react";
 import "./Home.css";
 import HomeHeroSection from "../components/Home/HomeHeroSection";
 import HomeMission from "../components/Home/HomeMission";
+import HomeGoals from "../components/Home/HomeGoals";
 
 //importing images
 //import IMG_blueblob from "../images/home/blue-blob.svg";
@@ -13,6 +14,7 @@ const Home = () => {
     <div className="home-container">
       <HomeHeroSection />
       <HomeMission />
+      <HomeGoals />
     </div>
   );
 };

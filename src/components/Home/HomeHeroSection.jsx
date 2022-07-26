@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
 //importing images
-import IMG_minilogo from "../../images/minilogo.png";
+import IMG_minilogo from "../../images/mainlogo.png";
 
 //import videos
 import VID_school from "../../images/home/school.mp4";
@@ -55,7 +55,7 @@ function HomeHeroSection() {
             color="text.primary"
             sx={{ height: {md: 50, xs:30}, width: {md:60, xs:30} }}
           />
-          <Typography variant="h3" sx={{ fontSize: { xs: 25, md: 50 } }}>PERPETUAL STAFFING...</Typography>
+          <Typography variant="h3" sx={{ fontSize: { xs: 25, md: 50 } }}>PERPETUAL STAFFING</Typography>
         </Box>
 
       </Box>
