@@ -1,12 +1,5 @@
-.mainLogo {
-    max-width: 160px;
-}
-
-.Logo1 {
-    max-height: 50px;
-    clip-path: circle(60%);
-    border: 2px solid black;
-    border-radius: 25px;
+.minilogo {
+    max-width: 140px;
 }
 
 .AppBar {
@@ -14,7 +7,28 @@
 }
 
 .appbar-page-links:visited,
-.appbar-page-links:link {
+.appbar-page-links:link,
+.drawer-page-links:visited,
+.drawer-page-links:link {
     text-decoration: none;
     color: black;
+}
+
+.appbar-page-links {
+    margin-right: 20px;
+    width: 120px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.appbar-page-links:hover {
+    background-color: #738EB3;
+    border-radius: 5px;
+    color: white;
+}
+
+.drawer-page-links {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
 }

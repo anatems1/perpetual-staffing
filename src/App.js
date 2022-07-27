@@ -14,14 +14,20 @@ const theme = createTheme({
     },
     dull: {
       main: "#D9D9D9",
+    },
+    darkFooter: {
+      main: "#2c2c2c",
     }
   },
   typography: {
     fontFamily: [
-      'Jost'
+      'Roboto'
     ],
     h2: {
       fontWeight: 600
+    },
+    h5: {
+      color: "darkFooter.main"
     }
   }
 });

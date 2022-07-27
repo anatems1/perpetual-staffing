@@ -15,7 +15,7 @@ let Headliner = "\"We are your solution to an everlasting career\"".toUpperCase(
 
 function HomeHeroSection() {
   return (
-    <Box className="hero-container" sx={{ height: "95vh"}}>
+    <Box className="hero-container" sx={{ height: "100vh"}}>
       <video src={VID_school} autoPlay loop muted alt="school video" />
       <Box
         className="hero-grid"
@@ -44,7 +44,7 @@ function HomeHeroSection() {
             textAlign: "center",
           }}
         >
-          <Typography variant="h3" sx={{ fontSize: { xs: 25, md: 50 } }}>
+          <Typography variant="h3" sx={{ fontSize: { xs: 25, md: 30, lg:50 } }}>
             {Headliner}
           </Typography>
         </Box>
@@ -55,7 +55,7 @@ function HomeHeroSection() {
             color="text.primary"
             sx={{ height: {md: 50, xs:30}, width: {md:60, xs:30} }}
           />
-          <Typography variant="h3" sx={{ fontSize: { xs: 25, md: 50 } }}>PERPETUAL STAFFING</Typography>
+          <Typography variant="h3" sx={{ fontSize: { xs: 25, md: 30, lg:50 } }}>PERPETUAL STAFFING</Typography>
         </Box>
 
       </Box>

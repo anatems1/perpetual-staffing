@@ -1,0 +1,11 @@
+#topIMG {
+    z-index: 2;
+    height: inherit;
+    width: inherit;
+}
+
+#bottIMG {
+    z-index: 1;
+    height: inherit;
+    width: inherit;
+}

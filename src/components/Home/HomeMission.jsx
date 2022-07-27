@@ -1,23 +1,26 @@
 import { Typography } from "@mui/material";
 import React from "react";
-import "./HomeMission.css";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
-import TwoStackImages from "../TwoStackImages";
+import TwoStackImages from "./TwoStackImages";
 
 //importing images
-import IMG_office from "../../images/home/office.png";
+import IMG_office from "../../images/home/office.svg";
 import IMG_blob from "../../images/home/blue-blob.svg";
 
-function HomeMission() {
+function HomeMission(props) {
+  const bg_color = props.bgCOLOR;
+  const sec_color = props.secCOLOR;
+  const h1_color = props.h1COLOR;
+  //const _grad1 = props.grad1;
 
   return (
     <div className="mission-container">
       <Grid
         container
         sx={{
-          backgroundColor: "#f5f5f5",
+          backgroundColor: bg_color,
           zIndex: -4,
         }}
       >
@@ -26,9 +29,8 @@ function HomeMission() {
           <TwoStackImages
             topIMG={IMG_office}
             bottIMG={IMG_blob}
-            xsSize="300px"
-            mdSize="400px"
-            mgTOP = "75px"
+            xsHeight="200px"
+            padALL="10%"
           />
         </Grid>
 
@@ -37,22 +39,25 @@ function HomeMission() {
           <Box
             sx={{
               padding: "10%",
-              marginTop: { xs: "5vh", md: "0" },
             }}
           >
+            <Typography variant="h4" sx={{ color: h1_color }}>
+              Our Mission
+            </Typography>
+            <br/>
             <Paper
               elevation={6}
               sx={{
-                backgroundColor: "dull.main",
+                boxShadow: "-10px -10px #53C3A1",
+                backgroundColor: sec_color,
                 padding: "5%",
                 maxWidth: "90%",
                 maxHeight: "max-content",
                 zIndex: 2,
               }}
             >
-              <Typography variant="h4">Our Mission</Typography>
-              <br />
-              <Typography variant="h5">
+
+              <Typography variant="h5" sx={{fontSize: {xs: "18px", md:"18px", lg: "30px"}}}>
                 Perpetual Staffing is devoted to ensuring workers and clients
                 encounter a positive and memorable experience. Our mission is to
                 construct a foundation of quality individuals, that have the
