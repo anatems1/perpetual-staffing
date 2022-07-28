@@ -15,7 +15,7 @@ function HomeAboutUs(props) {
               padding: {xs:"10%", md:"5%"}
             }}
           >
-            <Typography variant="h4" sx={{ color: h1_color }}>
+            <Typography variant="h2" sx={{ color: h1_color }}>
               About Us
             </Typography>
             <br/>
@@ -30,7 +30,7 @@ function HomeAboutUs(props) {
                 zIndex: 2,
               }}
             >
-              <Typography variant="h5" sx={{fontSize: {xs: "18px", md:"18px", lg:"30px"}}}>
+              <Typography variant="h" sx={{fontSize: {xs: "18px", md:"18px", lg:"30px"}}}>
                 Perpetual Staffing is a regional educational and residential
                 aide staffing organization, comitted to assisting schools and
                 health facilities with experienced and eager workers. We

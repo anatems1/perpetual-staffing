@@ -3,6 +3,9 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
+import Careers from "./pages/Careers";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 
 const theme = createTheme({
   palette: {
@@ -21,7 +24,7 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: [
-      'Roboto'
+      'Inter'
     ],
     h2: {
       fontWeight: 600
@@ -40,9 +43,9 @@ function App() {
           <ResponsiveAppBar />
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/Careers" element={<Home />} />
-            <Route exact path="/Services" element={<Home />} />
-            <Route exact path="/Contact" element={<Home />} />
+            <Route exact path="/Careers" element={<Careers />} />
+            <Route exact path="/Services" element={<Services />} />
+            <Route exact path="/Contact" element={<Contact />} />
           </Routes>
         </ThemeProvider>
       </Router>

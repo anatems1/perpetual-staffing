@@ -35,7 +35,7 @@ function HomeGoals(props) {
       </Box>
       <Grid container sx={{ background: _grad1, zIndex: -4, paddingTop: "5%" }}>
         <Grid item xs={12} md={12}>
-          <Typography variant="h4" sx={{ textAlign: "left", color: "white", paddingLeft: "5%" }}>
+          <Typography variant="h2" sx={{ textAlign: "left", color: "white", paddingLeft: "5%" }}>
             Company Goals
           </Typography>
         </Grid>

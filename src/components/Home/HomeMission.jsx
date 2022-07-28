@@ -41,7 +41,7 @@ function HomeMission(props) {
               padding: "10%",
             }}
           >
-            <Typography variant="h4" sx={{ color: h1_color }}>
+            <Typography variant="h2" sx={{ color: h1_color }}>
               Our Mission
             </Typography>
             <br/>

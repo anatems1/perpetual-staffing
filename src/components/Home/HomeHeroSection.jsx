@@ -11,9 +11,12 @@ import IMG_minilogo from "../../images/mainlogo.png";
 //import videos
 import VID_school from "../../images/home/school.mp4";
 
-let Headliner = "\"We are your solution to an everlasting career\"".toUpperCase();
+let Headliner = "\"We are your solution to an everlasting career\"";
 
-function HomeHeroSection() {
+function HomeHeroSection(props) {
+  // const bg_color = props.bgCOLOR;
+  // const sec_color = props.secCOLOR;
+  const h1_color = props.h1COLOR;
   return (
     <Box className="hero-container" sx={{ height: "100vh"}}>
       <video src={VID_school} autoPlay loop muted alt="school video" />
@@ -44,7 +47,7 @@ function HomeHeroSection() {
             textAlign: "center",
           }}
         >
-          <Typography variant="h3" sx={{ fontSize: { xs: 25, md: 30, lg:50 } }}>
+          <Typography variant="h2" sx={{ fontSize: { xs: 25, md: 30, lg:50 }, color:"black" }}>
             {Headliner}
           </Typography>
         </Box>
@@ -52,10 +55,9 @@ function HomeHeroSection() {
         {/* OUR MISSION TAG */}
         <Box sx={{ display: "flex" }}>
           <KeyboardDoubleArrowDownIcon
-            color="text.primary"
-            sx={{ height: {md: 50, xs:30}, width: {md:60, xs:30} }}
+            sx={{ height: {md: 50, xs:30}, width: {md:60, xs:30}, color: h1_color }}
           />
-          <Typography variant="h3" sx={{ fontSize: { xs: 25, md: 30, lg:50 } }}>PERPETUAL STAFFING</Typography>
+          <Typography variant="h2" sx={{ fontSize: { xs: 25, md: 30, lg:50 }, color: h1_color }}>Perpetual Staffing</Typography>
         </Box>
 
       </Box>

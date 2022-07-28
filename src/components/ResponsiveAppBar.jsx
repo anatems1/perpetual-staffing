@@ -6,7 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Button from "@mui/material/Button";
+//import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import { Link } from "react-router-dom";
 import Divider from "@mui/material/Divider";
@@ -102,13 +102,13 @@ const ResponsiveAppBar = (props) => {
             </Box>
 
             {/* APPLY BUTTON */}
-            <Box
+            {/* <Box
               sx={{ flexGrow: 1, display: "flex", justifyContent: "flex-end" }}
             >
               <Button variant="contained" sx={{ color: "white" }}>
                 Apply Now
               </Button>
-            </Box>
+            </Box> */}
           </Toolbar>
         </Container>
       </AppBar>

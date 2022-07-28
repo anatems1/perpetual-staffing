@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <HomeHeroSection />
+      <HomeHeroSection bgCOLOR={colorBG} secCOLOR={colorSEC} h1COLOR={colorH1}/>
       <HomeMission bgCOLOR={colorBG} secCOLOR={colorSEC} h1COLOR={colorH1}/>
       <HomeGoals bgCOLOR={colorBG} secCOLOR={colorSEC} h1COLOR={colorH1} grad1={grad1}/>
       <HomeAboutUs bgCOLOR={colorBG} secCOLOR={colorSEC} h1COLOR={colorH1}/>
