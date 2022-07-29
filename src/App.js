@@ -27,10 +27,11 @@ const theme = createTheme({
       'Inter'
     ],
     h2: {
-      fontWeight: 600
+      fontWeight: 600,
     },
     h5: {
-      color: "darkFooter.main"
+      color: "darkFooter.main",
+      fontSize: { xs: "18px", md: "18px", lg: "30px" },
     }
   }
 });

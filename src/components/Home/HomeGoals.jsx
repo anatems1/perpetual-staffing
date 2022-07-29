@@ -26,7 +26,7 @@ function HomeGoals(props) {
 
   return (
     <div className="goals-container">
-      <Box sx={{backgroundColor: bg_color, display: "flex"}}>
+      <Box sx={{ backgroundColor: bg_color, display: "flex" }}>
         <Wave
           fill="#6998DF"
           paused={false}
@@ -35,7 +35,10 @@ function HomeGoals(props) {
       </Box>
       <Grid container sx={{ background: _grad1, zIndex: -4, paddingTop: "5%" }}>
         <Grid item xs={12} md={12}>
-          <Typography variant="h2" sx={{ textAlign: "left", color: "white", paddingLeft: "5%" }}>
+          <Typography
+            variant="h2"
+            sx={{ textAlign: "left", color: "white", paddingLeft: "5%" }}
+          >
             Company Goals
           </Typography>
         </Grid>

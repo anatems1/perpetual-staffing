@@ -14,7 +14,7 @@ import VID_school from "../../images/home/school.mp4";
 let Headliner = "\"We are your solution to an everlasting career\"";
 
 function HomeHeroSection(props) {
-  // const bg_color = props.bgCOLOR;
+  const bg_color = props.bgCOLOR;
   // const sec_color = props.secCOLOR;
   const h1_color = props.h1COLOR;
   return (
@@ -57,7 +57,7 @@ function HomeHeroSection(props) {
           <KeyboardDoubleArrowDownIcon
             sx={{ height: {md: 50, xs:30}, width: {md:60, xs:30}, color: h1_color }}
           />
-          <Typography variant="h2" sx={{ fontSize: { xs: 25, md: 30, lg:50 }, color: h1_color }}>Perpetual Staffing</Typography>
+          <Typography variant="h2" sx={{ fontSize: { xs: 25, md: 30, lg:50 }, color: bg_color }}>Perpetual Staffing</Typography>
         </Box>
 
       </Box>
