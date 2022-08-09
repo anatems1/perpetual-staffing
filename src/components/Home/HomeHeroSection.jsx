@@ -11,7 +11,7 @@ import IMG_minilogo from "../../images/mainlogo.png";
 //import videos
 import VID_school from "../../images/home/school.mp4";
 
-let Headliner = "\"We are your solution to an everlasting career\"";
+let Headliner = "We are your solution to an everlasting career";
 
 function HomeHeroSection(props) {
   const bg_color = props.bgCOLOR;

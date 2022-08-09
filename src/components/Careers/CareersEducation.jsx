@@ -1,5 +1,13 @@
 import React from "react";
-import { Box, Grid, Paper, Typography, Avatar, Stack } from "@mui/material";
+import {
+  Box,
+  Grid,
+  Paper,
+  Typography,
+  Avatar,
+  Stack,
+  Button,
+} from "@mui/material";
 import { green, yellow, red, blue } from "@mui/material/colors";
 //import icons
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
@@ -56,7 +64,7 @@ function CareersEducation(props) {
             variant="h4"
             sx={{ color: dark_color, fontSize: { xs: "25px", md: "40px" } }}
           >
-            Why be a teacher Assitant?
+            Why be a teacher Assistant?
           </Typography>
           <br />
 
@@ -106,6 +114,15 @@ function CareersEducation(props) {
               </Stack>
             </Stack>
           </Paper>
+
+          <br />
+          {/* Apply button */}
+          <Button color="secondary" variant="contained">
+            <Typography color={bg_color} sx={{fontSize: {xs: "16px", md: "25px"}}}>
+              Apply Now
+            </Typography>
+          </Button>
+
         </Grid>
 
         {/* DESKTOP IMAGE */}
@@ -150,7 +167,12 @@ function CareersEducation(props) {
         </Grid>
 
         {/* HEADER */}
-        <Grid item xs={12} md={8} sx={{ padding:{ xs: "5% 0 30% 5%", md: "5% 0 5% 5%" } }}>
+        <Grid
+          item
+          xs={12}
+          md={8}
+          sx={{ padding: { xs: "5% 0 30% 5%", md: "5% 0 5% 5%" } }}
+        >
           <Typography variant="h2" sx={{ color: h1_color }}>
             Residential Aide
           </Typography>
@@ -210,6 +232,15 @@ function CareersEducation(props) {
               </Stack>
             </Stack>
           </Paper>
+
+          <br />
+          {/* Apply button */}
+          <Button color="secondary" variant="contained">
+            <Typography color={bg_color} sx={{fontSize: {xs: "16px", md: "25px"}}}>
+              Apply Now
+            </Typography>
+          </Button>
+
         </Grid>
       </Grid>
     </div>

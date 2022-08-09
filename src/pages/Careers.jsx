@@ -3,6 +3,7 @@ import CareersHeroSection from "../components/Careers/CareersHeroSection";
 import CareersWorkWUS from "../components/Careers/CareersWorkWUS";
 import CareersEducation from "../components/Careers/CareersEducation";
 import Footer from "../components/Footer";
+
 const Careers = () => {
   const colorBG = "#f5f5f5";
   const colorSEC = "dull.main";
