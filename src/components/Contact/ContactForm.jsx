@@ -71,14 +71,25 @@ const ContactForm = (props) => {
           <Grid
             container
             sx={{
-              padding: { xs: "20px", md: "50px", lg: "100px" },
+              padding: { xs: "20px", md: "50px", lg: "100px"},
+              paddingBottom: {xs: "50px"}
             }}
           >
             {/* Information about us */}
-            <Grid item xs={12} md={6} sx={{ paddingRight: {md:"100px"},marginBottom: {xs: "50px"}, transform: {md:"translateY(20%)"} }}>
+            <Grid
+              item
+              xs={12}
+              md={6}
+              sx={{
+                paddingRight: { md: "100px" },
+                marginBottom: { xs: "50px" },
+                transform: { md: "" },
+              }}
+            >
               <Paper
                 elevation={6}
                 sx={{
+                  boxShadow: "-10px -10px #53C3A1",
                   backgroundColor: bg_color,
                   padding: "5%",
                   maxWidth: "90%",
@@ -88,12 +99,22 @@ const ContactForm = (props) => {
               >
                 {/* Stack for company information */}
                 <Stack direction="column" spacing={2}>
-                  <Typography variant="h2" sx={{ fontSize: "30px" }}>
-                    Pertpetual Staffing LLC.
+                  <Typography variant="h2" sx={{ fontSize: "28px" }}>
+                    Pertpetual Staffing LLC
+                  </Typography>
+                  <img alt='philly-map' src="https://www.google.com/maps/vt/data=LeVBnlH780NHBi12r6mvQu1-LhJwGu-jXZxn27JnvAEQwsLLY2I_3649pYUIxkQiMwsf5Hk5WZW7lPxXMtU5OuiTeJQfw59Gjh19swNdo1W9b3gqQnHp2ScKLAdxavzGjbKk7_fQW04Ms9rKIGYR0j5A7HcNGDL3UhKGQ89qPsz5tJ5C8UWW-m21_qgEnYNZDXGrlZOQ8NLMu38_hLeKjJJz-Dq_CCUd1PW84QVT4-7cWQU" />
+                  <Typography
+                    variant="h2"
+                    color="primary.dark"
+                    textAlign="center"
+                    sx={{ fontSize: "20px" }}
+                  >
+                    Proudly Serving the Philadelphia Area
                   </Typography>
                   <Stack direction="row" spacing={2}>
                     <RoomIcon />
                     <Stack direction="column">
+                      <Typography>Headquarters</Typography>
                       <Typography>XXXX _____ st.</Typography>
                       <Typography>Pittsburgh, PA 15213</Typography>
                     </Stack>
@@ -129,10 +150,14 @@ const ContactForm = (props) => {
                   zIndex: 2,
                 }}
               >
-                <Stack direction="column" spacing={2}>
+                <Stack direction="column" spacing={3}>
                   <Typography
                     variant="h2"
-                    sx={{ color: dark_color, fontSize: "30px" }}
+                    sx={{
+                      color: dark_color,
+                      fontSize: "28px",
+                      paddingBottom: "10px",
+                    }}
                   >
                     How Can We Improve?
                   </Typography>
@@ -149,7 +174,7 @@ const ContactForm = (props) => {
                   <TextField
                     label="Full Name"
                     fullWidth
-                    autocomplete="none"
+                    autoComplete="name"
                     name="name"
                     value={fullName}
                     onChange={(e) => setName(e.target.value)}
@@ -158,7 +183,7 @@ const ContactForm = (props) => {
                     label="Email"
                     type="email"
                     fullWidth
-                    autocomplete="none"
+                    autoComplete="email"
                     name="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -166,7 +191,7 @@ const ContactForm = (props) => {
                   <TextField
                     label="Phone"
                     fullWidth
-                    autocomplete="none"
+                    autoComplete="tel"
                     name="phone"
                     value={phoneNumber}
                     onChange={(e) => setPhoneNumber(e.target.value)}
@@ -176,7 +201,7 @@ const ContactForm = (props) => {
                     fullWidth
                     multiline
                     rows={5}
-                    autocomplete="none"
+                    autoComplete="none"
                     name="msg"
                     value={msg}
                     onChange={(e) => setMsg(e.target.value)}

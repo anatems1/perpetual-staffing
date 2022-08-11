@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
 //importing images
-import IMG_minilogo from "../../images/mainlogo.png";
+import IMG_minilogo from "../../images/mainlogo-white.png";
 
 //import videos
 import VID_school from "../../images/home/school.mp4";

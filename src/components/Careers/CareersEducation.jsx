@@ -6,7 +6,6 @@ import {
   Typography,
   Avatar,
   Stack,
-  Button,
 } from "@mui/material";
 import { green, yellow, red, blue } from "@mui/material/colors";
 //import icons
@@ -22,7 +21,7 @@ import IMG_education from "../../images/careers/school.png";
 import IMG_man from "../../images/careers/man.png";
 
 function CareersEducation(props) {
-  const bg_color = props.bgCOLOR;
+  // const bg_color = props.bgCOLOR;
   const sec_color = props.secCOLOR;
   const h1_color = props.h1COLOR;
   const dark_color = props.darkCOLOR;
@@ -116,12 +115,6 @@ function CareersEducation(props) {
           </Paper>
 
           <br />
-          {/* Apply button */}
-          <Button color="secondary" variant="contained">
-            <Typography color={bg_color} sx={{fontSize: {xs: "16px", md: "25px"}}}>
-              Apply Now
-            </Typography>
-          </Button>
 
         </Grid>
 
@@ -157,7 +150,7 @@ function CareersEducation(props) {
       </Grid>
 
       {/* DESKTOP IMAGE */}
-      <Grid container sx={{ padding: "5% 5% 5% 0%" }}>
+      <Grid container sx={{ padding: "5% 5% 0% 0%" }}>
         <Grid item xs={12} md={4} sx={{ display: { xs: "none", md: "flex" } }}>
           <Box
             component="img"
@@ -234,12 +227,6 @@ function CareersEducation(props) {
           </Paper>
 
           <br />
-          {/* Apply button */}
-          <Button color="secondary" variant="contained">
-            <Typography color={bg_color} sx={{fontSize: {xs: "16px", md: "25px"}}}>
-              Apply Now
-            </Typography>
-          </Button>
 
         </Grid>
       </Grid>

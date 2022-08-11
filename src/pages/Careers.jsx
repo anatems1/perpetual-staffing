@@ -2,6 +2,8 @@ import React from "react";
 import CareersHeroSection from "../components/Careers/CareersHeroSection";
 import CareersWorkWUS from "../components/Careers/CareersWorkWUS";
 import CareersEducation from "../components/Careers/CareersEducation";
+import CareerForm from "../components/Careers/CareersForm";
+
 import Footer from "../components/Footer";
 
 const Careers = () => {
@@ -37,9 +39,15 @@ const Careers = () => {
         h1COLOR={colorH1}
         darkCOLOR={colorDARK}
         grad1={grad1}
-        BodyFontSize ={BodyFontSize}
+        BodyFontSize={BodyFontSize}
       />
-      <Footer/>
+      <CareerForm
+        bgCOLOR={colorBG}
+        secCOLOR={colorSEC}
+        h1COLOR={colorH1}
+        darkCOLOR={colorDARK}
+      />
+      <Footer />
     </div>
   );
 };

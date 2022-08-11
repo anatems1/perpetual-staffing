@@ -20,7 +20,7 @@ function GoalCard(props) {
         <Box sx={{ height: "150px", marginBottom: "20px" }}>
           <img src={_goalIMG} alt="goals-card-img" />
         </Box>
-        <Typography sx={{ textAlign: "center", fontSize: {xs: "15px", md:"16px", lg:"25px"} }}>{_goalTXT}</Typography>
+        <Typography sx={{ textAlign: "center", fontSize: {xs: "15px", md:"16px", lg: "20px", xl:"25px"} }}>{_goalTXT}</Typography>
       </Paper>
     </div>
   );

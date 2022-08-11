@@ -42,7 +42,7 @@ const ResponsiveAppBar = (props) => {
 
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         {pages.map((page) => (
-          <Link to={page} className="drawer-page-links">
+          <Link to={page} className="drawer-page-links" key={page}>
             {page}
           </Link>
         ))}
@@ -95,7 +95,7 @@ const ResponsiveAppBar = (props) => {
             {/* md LINKS */}
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
-                <Link to={page} className="appbar-page-links">
+                <Link to={page} className="appbar-page-links" key={page}>
                   {page}
                 </Link>
               ))}
