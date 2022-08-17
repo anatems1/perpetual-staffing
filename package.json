@@ -2,7 +2,7 @@
     "name": "perpetual-staffing",
     "version": "0.1.0",
     "private": false,
-    "homepage": "https://anatems1.github.io/perpetual-staffing",
+    "homepage": "https://perpetual-staffing.com",
     "dependencies": {
         "@emotion/react": "^11.9.3",
         "@emotion/styled": "^11.9.3",

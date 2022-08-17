@@ -42,7 +42,7 @@ function App() {
       <Router>
         <ThemeProvider theme={theme}>
           <ResponsiveAppBar />
-          <Routes basename="/perpetual-staffing">
+          <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/Careers" element={<Careers />} />
             <Route exact path="/Services" element={<Services />} />
