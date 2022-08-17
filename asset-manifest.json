@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/perpetual-staffing/static/css/main.451c67a0.css",
-    "main.js": "/perpetual-staffing/static/js/main.6d49ffd7.js",
+    "main.js": "/perpetual-staffing/static/js/main.ad9ae7e3.js",
     "static/js/787.473beeca.chunk.js": "/perpetual-staffing/static/js/787.473beeca.chunk.js",
     "static/media/school.mp4": "/perpetual-staffing/static/media/school.8548b8bd2daa760092e2.mp4",
     "static/media/man.png": "/perpetual-staffing/static/media/man.be96d5099103e32742dd.png",
     "static/media/school.png": "/perpetual-staffing/static/media/school.70d4816595d50ff2829f.png",
-    "static/media/office.svg": "/perpetual-staffing/static/media/office.2e462c77728dea827bc9a2c90e86e1f2.svg",
-    "static/media/business.svg": "/perpetual-staffing/static/media/business.6d3322371db444e92a480a830d0dc4fe.svg",
+    "static/media/office.svg": "/perpetual-staffing/static/media/office.f0f3e606dd2f5d5c48ada41f03b7f7c9.svg",
+    "static/media/business.svg": "/perpetual-staffing/static/media/business.79d5e3338073d0bc073394fcf29793aa.svg",
     "static/media/jumping-people.png": "/perpetual-staffing/static/media/jumping-people.2219594019835de39908.png",
     "static/media/mainlogo-white.png": "/perpetual-staffing/static/media/mainlogo-white.807914a7daae350d3cdd.png",
     "static/media/mainlogo.png": "/perpetual-staffing/static/media/mainlogo.2338aa47a9d9102e8cda.png",
-    "static/media/group.svg": "/perpetual-staffing/static/media/group.1aa56f6aa0a31695ceca78e1928c83ce.svg",
+    "static/media/group.svg": "/perpetual-staffing/static/media/group.6a4934c52f44b32ded9b1bff1a9d0da7.svg",
     "static/media/minilogo.png": "/perpetual-staffing/static/media/minilogo.3290be256781b64b7e99.png",
-    "static/media/school.svg": "/perpetual-staffing/static/media/school.9c57f1c96c49057d5385aefddeebd648.svg",
-    "static/media/health.svg": "/perpetual-staffing/static/media/health.aa704859064a0beadd45ac8fa9854b19.svg",
+    "static/media/school.svg": "/perpetual-staffing/static/media/school.8184732fd4257eb069e021a3677a5ebb.svg",
+    "static/media/health.svg": "/perpetual-staffing/static/media/health.3afecfaefaeecaca214e41569500b3d9.svg",
     "index.html": "/perpetual-staffing/index.html",
-    "static/media/grey-blob.svg": "/perpetual-staffing/static/media/grey-blob.836acb52dfd7075e5cb0f1acff7e3a72.svg",
-    "static/media/blue-blob.svg": "/perpetual-staffing/static/media/blue-blob.6e425f1b4aac04378f29aaccf627b49d.svg",
+    "static/media/grey-blob.svg": "/perpetual-staffing/static/media/grey-blob.53b36367a91c61613f6a9df4ed4b78dc.svg",
+    "static/media/blue-blob.svg": "/perpetual-staffing/static/media/blue-blob.c7b375429668d605e750731ae8ffed67.svg",
     "main.451c67a0.css.map": "/perpetual-staffing/static/css/main.451c67a0.css.map",
-    "main.6d49ffd7.js.map": "/perpetual-staffing/static/js/main.6d49ffd7.js.map",
+    "main.ad9ae7e3.js.map": "/perpetual-staffing/static/js/main.ad9ae7e3.js.map",
     "787.473beeca.chunk.js.map": "/perpetual-staffing/static/js/787.473beeca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.451c67a0.css",
-    "static/js/main.6d49ffd7.js"
+    "static/js/main.ad9ae7e3.js"
   ]
 }
