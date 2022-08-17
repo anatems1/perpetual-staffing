@@ -24,7 +24,7 @@ function CareersHeroSection(props) {
         }}
       >
         {/* JUMPING PEOPLE */}
-        <Box sx={{ position: "absolute", bottom: {xs:"20vh", md:"10%", lg:"0%"}}}>
+        <Box sx={{ position: "absolute", bottom: {xs:"20vh", md:"10%", lg:"0%"}, display: {xs: "none", md: "flex"}}}>
           <img src={IMG_jumping1} alt="jumping_people" />
         </Box>
 
@@ -37,7 +37,7 @@ function CareersHeroSection(props) {
           />
         </Box>
 
-        <Box sx={{backgroundColor: dark_color, position: "absolute", bottom: 0, width: "100%", height: "10vh"}}></Box>
+        <Box sx={{backgroundColor: dark_color, position: "absolute", bottom: -5, width: "100%", height: "10vh"}}></Box>
 
         {/* HERO TEXT */}
         <Grid container sx={{ position: "absolute", top: 100, height: "auto" }}>
