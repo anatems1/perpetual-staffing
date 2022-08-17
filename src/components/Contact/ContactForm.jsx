@@ -115,8 +115,9 @@ const ContactForm = (props) => {
                     <RoomIcon />
                     <Stack direction="column">
                       <Typography>Headquarters</Typography>
-                      <Typography>XXXX _____ st.</Typography>
-                      <Typography>Pittsburgh, PA 15213</Typography>
+                      <Typography>239 4th Ave</Typography>
+                      <Typography>Suite 1401 #2416</Typography>
+                      <Typography>Pittsburgh, PA 15222</Typography>
                     </Stack>
                   </Stack>
                   <Stack direction="row" spacing={2}>

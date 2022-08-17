@@ -4,17 +4,17 @@ import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrow
 import Wave from "react-wavify";
 
 function ServicesHero(props) {
-    const bg_color = props.bgCOLOR;
-    // const sec_color = props.secCOLOR;
-    //const h1_color = props.h1COLOR;
-    const dark_color = props.darkCOLOR;
-    // const _grad1 = props.grad1;
+  const bg_color = props.bgCOLOR;
+  // const sec_color = props.secCOLOR;
+  //const h1_color = props.h1COLOR;
+  const dark_color = props.darkCOLOR;
+  // const _grad1 = props.grad1;
   return (
     <div className="services-hero-container">
       <Box
         sx={{
           position: "relative",
-          height: "100vh",
+          height: "80vh",
           width: "100%",
         }}
       >
@@ -24,7 +24,7 @@ function ServicesHero(props) {
             position: "absolute",
             bottom: -5,
             width: "100%",
-            height: "25%",
+            height: "20vh",
           }}
         >
           <Wave
@@ -32,7 +32,15 @@ function ServicesHero(props) {
             paused={false}
             options={{ height: 20, amplitude: 50, speed: 0.15, points: 6 }}
           />
-          <Box sx={{backgroundColor: "primary.main", position: "absolute", bottom: 0, width: "100%", height: "10vh"}}></Box>
+          <Box
+            sx={{
+              backgroundColor: "primary.main",
+              position: "absolute",
+              bottom: 0,
+              width: "100%",
+              height: "10vh",
+            }}
+          ></Box>
         </Box>
         {/* HERO TEXT */}
         <Grid container sx={{ position: "absolute", top: 100, height: "auto" }}>

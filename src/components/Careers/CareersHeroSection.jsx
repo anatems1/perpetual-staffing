@@ -19,17 +19,17 @@ function CareersHeroSection(props) {
       <Box
         sx={{
           position: "relative",
-          height: "100vh",
+          height: "80vh",
           width: "100%",
         }}
       >
         {/* JUMPING PEOPLE */}
-        <Box sx={{ position: "absolute", bottom: {xs:"20vh", md:"10%", lg:"0%"} }}>
+        <Box sx={{ position: "absolute", bottom: {xs:"20vh", md:"10%", lg:"0%"}}}>
           <img src={IMG_jumping1} alt="jumping_people" />
         </Box>
 
         {/* JUMPING FLOOR */}
-        <Box sx={{ position: "absolute", bottom: -5, width: "100%", height: "25%" }}>
+        <Box sx={{ position: "absolute", bottom: 0, width: "100%", height: "20vh" }}>
           <Wave
             fill="#2c2c2c"
             paused={false}
