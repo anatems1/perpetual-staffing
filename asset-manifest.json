@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/perpetual-staffing/static/css/main.451c67a0.css",
-    "main.js": "/perpetual-staffing/static/js/main.8cdfa3c0.js",
+    "main.js": "/perpetual-staffing/static/js/main.6d49ffd7.js",
     "static/js/787.473beeca.chunk.js": "/perpetual-staffing/static/js/787.473beeca.chunk.js",
     "static/media/school.mp4": "/perpetual-staffing/static/media/school.8548b8bd2daa760092e2.mp4",
     "static/media/man.png": "/perpetual-staffing/static/media/man.be96d5099103e32742dd.png",
@@ -19,11 +19,11 @@
     "static/media/grey-blob.svg": "/perpetual-staffing/static/media/grey-blob.836acb52dfd7075e5cb0f1acff7e3a72.svg",
     "static/media/blue-blob.svg": "/perpetual-staffing/static/media/blue-blob.6e425f1b4aac04378f29aaccf627b49d.svg",
     "main.451c67a0.css.map": "/perpetual-staffing/static/css/main.451c67a0.css.map",
-    "main.8cdfa3c0.js.map": "/perpetual-staffing/static/js/main.8cdfa3c0.js.map",
+    "main.6d49ffd7.js.map": "/perpetual-staffing/static/js/main.6d49ffd7.js.map",
     "787.473beeca.chunk.js.map": "/perpetual-staffing/static/js/787.473beeca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.451c67a0.css",
-    "static/js/main.8cdfa3c0.js"
+    "static/js/main.6d49ffd7.js"
   ]
 }
