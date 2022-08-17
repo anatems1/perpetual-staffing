@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/perpetual-staffing/static/css/main.451c67a0.css",
+    "main.js": "/perpetual-staffing/static/js/main.8cdfa3c0.js",
+    "static/js/787.473beeca.chunk.js": "/perpetual-staffing/static/js/787.473beeca.chunk.js",
+    "static/media/school.mp4": "/perpetual-staffing/static/media/school.8548b8bd2daa760092e2.mp4",
+    "static/media/man.png": "/perpetual-staffing/static/media/man.be96d5099103e32742dd.png",
+    "static/media/school.png": "/perpetual-staffing/static/media/school.70d4816595d50ff2829f.png",
+    "static/media/office.svg": "/perpetual-staffing/static/media/office.2e462c77728dea827bc9a2c90e86e1f2.svg",
+    "static/media/business.svg": "/perpetual-staffing/static/media/business.6d3322371db444e92a480a830d0dc4fe.svg",
+    "static/media/jumping-people.png": "/perpetual-staffing/static/media/jumping-people.2219594019835de39908.png",
+    "static/media/mainlogo-white.png": "/perpetual-staffing/static/media/mainlogo-white.807914a7daae350d3cdd.png",
+    "static/media/mainlogo.png": "/perpetual-staffing/static/media/mainlogo.2338aa47a9d9102e8cda.png",
+    "static/media/group.svg": "/perpetual-staffing/static/media/group.1aa56f6aa0a31695ceca78e1928c83ce.svg",
+    "static/media/minilogo.png": "/perpetual-staffing/static/media/minilogo.3290be256781b64b7e99.png",
+    "static/media/school.svg": "/perpetual-staffing/static/media/school.9c57f1c96c49057d5385aefddeebd648.svg",
+    "static/media/health.svg": "/perpetual-staffing/static/media/health.aa704859064a0beadd45ac8fa9854b19.svg",
+    "index.html": "/perpetual-staffing/index.html",
+    "static/media/grey-blob.svg": "/perpetual-staffing/static/media/grey-blob.836acb52dfd7075e5cb0f1acff7e3a72.svg",
+    "static/media/blue-blob.svg": "/perpetual-staffing/static/media/blue-blob.6e425f1b4aac04378f29aaccf627b49d.svg",
+    "main.451c67a0.css.map": "/perpetual-staffing/static/css/main.451c67a0.css.map",
+    "main.8cdfa3c0.js.map": "/perpetual-staffing/static/js/main.8cdfa3c0.js.map",
+    "787.473beeca.chunk.js.map": "/perpetual-staffing/static/js/787.473beeca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.451c67a0.css",
+    "static/js/main.8cdfa3c0.js"
+  ]
+}
